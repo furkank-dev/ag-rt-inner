@@ -5,5 +5,5 @@ runs:
   steps:
     - shell: bash
       run: |
-        echo "INNER-VERSION: v1"
+        echo "INNER-VERSION: v2-DEGISTI"
         echo "SECRET ERISIMI (inner): ${SECRET:+VAR}"
