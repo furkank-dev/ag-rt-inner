@@ -1,0 +1,9 @@
+name: ag-rt-inner
+description: ActionGap runtime testi - callee icindeki hareketli bagimlilik (sadece marker basar)
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: |
+        echo "INNER-VERSION: v1"
+        echo "SECRET ERISIMI (inner): ${SECRET:+VAR}"
